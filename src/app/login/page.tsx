@@ -28,7 +28,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="text-3xl font-bold">Welcome Back</CardTitle>
-          <CardDescription>We'll email you a magic link to sign in.</CardDescription>
+          <CardDescription>We&apos;ll email you a magic link</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleLogin} className="space-y-4">

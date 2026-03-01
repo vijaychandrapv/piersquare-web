@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import { FileText, MessageSquare, ArrowRight } from 'lucide-react'
+import { FileText, MessageSquare } from 'lucide-react'
 import { Card } from "@/components/ui/card"
 
 export default function OnboardingFork() {
@@ -15,7 +15,7 @@ export default function OnboardingFork() {
               <FileText className="w-12 h-12 text-slate-900" />
             </div>
             <h2 className="text-2xl font-bold tracking-tight">Upload Resume</h2>
-            <p className="text-slate-500">We'll parse your details and start the story from there.</p>
+            <p className="text-slate-500">We&apos;ll parse your details and start the story from there.</p>
           </Card>
         </Link>
 

@@ -1,13 +1,13 @@
 "use client"
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Send, CheckCircle2 } from 'lucide-react'
+import { Send } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
 export default function AIWorkshop() {
   const [messages, setMessages] = useState([
-    { role: 'ai', content: "Hi! Let's build your PierSquare profile. What's your name?" }
+    { role: 'ai', content: "Hi! Let&apos;s build your PierSquare profile. What&apos;s your name?" }
   ])
   const [inputValue, setInputValue] = useState('')
   const [userName, setUserName] = useState('')
